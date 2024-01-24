@@ -1,0 +1,42 @@
+/* .motion-container {
+    position: relative;
+} */
+
+.logo {
+    position: absolute;
+    width: 290px;
+    margin: 10px 0 0 -210px;
+
+}
+
+.hoja {
+    position: absolute;
+    width: 80px;
+    margin: 265px 0 0 -85px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.nombre {
+    position: absolute;
+    width: 200px;
+    margin: 70px 0 0 55px;
+    z-index: 3;
+}
+
+.coming {
+    position: absolute;
+    font: serif, sans-serif;
+    font-size: 28px;
+    color: #fff;
+    margin: 400px 0 0 65px;
+    text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;
+  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.coming:hover {
+    text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #fac539 , 0 0 70px #fac539 , 0 0 80px #fac539 , 0 0 100px #fac539 ;
+}
