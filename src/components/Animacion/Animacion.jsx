@@ -1,9 +1,6 @@
 import './Animacion.css';
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from 'react';
-import ovNi from '';
-import letras from '';
-import leaf from '';
 
 const Animacion = () => {
 
